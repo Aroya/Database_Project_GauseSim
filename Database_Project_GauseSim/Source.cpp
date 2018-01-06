@@ -1,9 +1,9 @@
-
 #include<iostream>
-using namespace std;
 #include"lib\GauseSim.h"
+using namespace std;
+
 int main() {
-	printf("This is a example of GauseSim\n");
+	printf("This is an example of GauseSim\n");
 	
 	//set Sigma
 	//defaule is 1

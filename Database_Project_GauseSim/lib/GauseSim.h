@@ -8,6 +8,11 @@ static double Pi = 3.14159265358979323846;
 static double sigma1 = 1.0;
 static double sigma2 = 1.0;
 
+namespace GauseSimSetting {
+	void setSigma1(const double&);
+	void setSigma2(const double&);
+}
+
 //setSigma functions 
 //are in namespace GauseSimSetting
 double GauseSim(
@@ -24,10 +29,6 @@ double GauseSim(
 		(2 * Pi*sigma1*sigma2);
 }
 
-namespace GauseSimSetting {
-	void setSigma1(const double&);
-	void setSigma2(const double&);
-}
 void GauseSimSetting::setSigma1(const double&t) {
 	sigma1 = t;
 }
